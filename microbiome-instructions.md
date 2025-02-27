@@ -202,7 +202,7 @@ qiime demux summarize \
 ```
 - Git add, commit and push `reads_trimmed_joined_filt.qzv` Download and open in https://view.qiime2.org/
 - Answer question 13
-3. Actual denoising with deblur
+4. Actual denoising with deblur
 
 ```         
 qiime deblur denoise-16S \
