@@ -11,10 +11,6 @@ cd MultiQC
 pip install .
 ```
 
-```
-echo 'export PATH=/ocean/projects/agr250001p/shared/software/MultiQC:$PATH' >> ~/.bashrc
-source ~/.bashrc
-```
 - Use `multiqc --help` to test the software
 
 ## Install QIIME2
