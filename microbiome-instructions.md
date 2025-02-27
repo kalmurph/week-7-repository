@@ -194,6 +194,12 @@ qiime quality-filter q-score \
   --o-filter-stats filt_stats.qza \
   --o-filtered-sequences reads_qza/reads_trimmed_joined_filt.qza
 ```
+3. Summarize results
+```         
+qiime demux summarize \
+  --i-data reads_qza/reads_trimmed_joined_filt.qza \
+  --o-visualization reads_qza/reads_trimmed_joined_filt_summary.qzv
+```
 - Git add, commit and push `reads_trimmed_joined_filt.qzv` Download and open in https://view.qiime2.org/
 - Answer question 13
 3. Actual denoising with deblur
