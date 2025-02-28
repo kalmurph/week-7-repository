@@ -6,10 +6,12 @@ You should know how to do this now! `Woohoo`
 
 This software has been already installed in our shared ocean directory and it will work fine while you are in that specific direectory. However, for you to use this file from any directory in the HPC, we must first add it to the environment path and source it:
 ```
-git clone https://github.com/MultiQC/MultiQC.git
-cd MultiQC
-pip install .
+python3 -m pip install --upgrade --user pip
 ```
+```
+python3 -m pip install --user multiqc
+```
+
 
 - Use `multiqc --help` to test the software
 
